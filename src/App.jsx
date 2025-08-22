@@ -1,9 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function App() {
+  return (
+    <div>
+      <h1>Pallet Calculator App</h1>
+      <p>¡Bienvenido! Esta es la base de tu proyecto con React + Vite.</p>
+    </div>
+  );
+}
+
+export default App;
